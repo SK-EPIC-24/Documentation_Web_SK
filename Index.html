@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Documentation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h3>JavaScript Docs</h3>
+        <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#prerequisites">What You Should Already Know</a></li>
+            <li><a href="#js-vs-java">JavaScript and Java</a></li>
+            <li><a href="#hello-world">Hello World</a></li>
+            <li><a href="#variables">Variables</a></li>
+        </ul>
+    </div>   
+    <div class="content">
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>JavaScript is a versatile, high-level programming language used primarily for web development. 
+                <br>
+                It allows developers to create dynamic and interactive web pages. JavaScript runs in the browser,
+                <br>
+                enabling client-side scripting and server-side functionalities through environments like Node.js.</p>
+        </section>
+        
+        <section id="prerequisites">
+            <h2>What You Should Already Know</h2>
+            <p>Before learning JavaScript, it is helpful to have a basic understanding of:
+                <br>
+                HTML: Structure of web pages.
+                <br>
+                CSS: Styling and layout of web pages.
+                <br>
+                Programming Concepts: Variables, functions, loops, and conditions.
+                <br>
+                Familiarity with these topics will help you grasp JavaScript concepts more efficiently.</p>
+        </section>
+        
+        <section id="js-vs-java">
+            <h2>JavaScript and Java</h2>
+            <p>Despite their similar names, JavaScript and Java are distinct programming languages.
+                <br>
+                Java is a statically typed, object-oriented language that requires compilation.
+                <br>
+                JavaScript is a dynamically typed, interpreted language used mainly for web development.
+                <br>
+                JavaScript is lightweight and commonly embedded in HTML, while Java runs on a separate virtual machine (JVM).</p>
+        </section>
+        
+        <section id="hello-world">
+            <h2>Hello World</h2>
+            <p>A simple way to write and execute JavaScript is by using the browser console or embedding it in an HTML file.
+                <!DOCTYPE html>
+                <html>
+                <head>
+                    <title>Hello World</title>
+                </head>
+                <body>
+                    <h1>SK says HI</h1>
+                    <script>
+                        console.log("Hello, World!");
+                    </script>
+                </body>
+                </html>
+                When executed, this script will print "Hello, World!" in the browser's console.</p>
+        </section>
+        
+        <section id="variables">
+            <h2>Variables</h2>
+            <p>In JavaScript, variables are used to store data values. JavaScript provides three ways to declare variables:
+                <br>
+                Using var (Old method, function-scoped)
+                <br>
+                var message = "Hello, JavaScript!";
+                console.log(message);
+                <br>
+                Using let (Block-scoped, preferred for mutable variables)
+                <br>
+                let name = "Alice";
+                name = "Bob"; // Allowed
+                console.log(name);
+                <br>
+                Using const (Block-scoped, for constants)
+                <br>
+                const pi = 3.14159;
+                console.log(pi);
+                // pi = 3.14; // Error: Assignment to a constant variable.
+                <br>
+                Understanding these fundamental concepts will help you build more complex JavaScript applications.
+                
+                </p>
+        </section>
+    </div>
+</body>
+</html>
